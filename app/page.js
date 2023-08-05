@@ -12,7 +12,7 @@ export default function Home() {
         <h3 className='lg:text-xl mt-4 text-center font-semibold lg:w-5/12 px-5 ' data-aos="fade-up">Your one-stop destination for all your grocery needs!</h3>
         <div className='flex flex-col text-center lg:w-5/12 lg:flex-row mt-5 gap-4 lg:justify-center'>
           <Link href="/order" >
-            <button className='text-white px-4 py-3 rounded-xl font-semibold text-lg ' data-aos="fade-up" style={{ backgroundColor: "#FF4081", width: "170px" }}>Home Delivery</button></Link>
+            <button className='text-white px-4 py-3 rounded-xl font-semibold text-lg ' data-aos="fade-up" style={{ backgroundColor: "#FF4081", width: "190px" }}>Home Delivery</button></Link>
           <Link href="/contact" >
             <button className='text-white px-4 py-3 rounded-xl font-semibold text-lg ' data-aos="fade-up" style={{ backgroundColor: "#FF4081", width: "170px" }}>Contact Us</button>
           </Link>
