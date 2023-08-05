@@ -23,7 +23,7 @@ export default function Footer() {
     return (
         <div className={styles.footerContainer}>
             <div className={styles.logoTitle}>
-                <Image className={styles.footerLogo} src="/images/white Q logo.png" width={100} height={100} alt="AHS logo" />
+                <Image className={styles.footerLogo} src="/images/white Q logo.png" width={50} height={50} alt="AHS logo" />
                 <h2>Qidmat Kirana & General Store Wholesale & Retail</h2>
             </div>
             <div className={styles.allNavi}>
