@@ -45,7 +45,7 @@ export default function Checkout({ allItems }) {
     return (
         <form onSubmit={handleOrder} className='min-h-screen'>
             <h1 className='text-5xl gradient-text mt-20 text-center'>Checkout</h1>
-            <div className='flex flex-col gap-5 shadow-xl p-10 mx-5 md:mx-20 mt-5'>
+            <div className='flex flex-col gap-5 shadow-xl px-5 py-8 mx-5 md:mx-20 mt-5'>
                 <div className='flex md:flex-row flex-col justify-center gap-10 mt-5'>
                     <span className='text-xl md:w-96'>Enter your Name
                     </span>

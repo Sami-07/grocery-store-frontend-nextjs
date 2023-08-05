@@ -179,9 +179,14 @@ border: 1px solid gray;
 
     .subCol2 {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-gap: 0px;
-        grid-template-rows: 60px 60px;
+      
+    }
+    .contactCol2 input {
+
+        height: 38px;
+        width: 70vw;
     }
 
     /* .contactCol2 input {
@@ -193,9 +198,7 @@ margin: 0;
         margin: 0 20px;
     }
 
-    .contactCol2 input {
-        width: 120px;
-    }
+  
 }
 
 

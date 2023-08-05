@@ -38,7 +38,7 @@ export default function Order() {
   return (
     <div className='min-h-screen'>
       <h1 className='text-4xl text-center my-5 font-black gradient-text mt-24' data-aos="fade-down">Book a Home Delivery</h1>
-      <div className='flex items-center flex-col lg:flex-row justify-center px-10'>
+      <div className='flex items-center flex-col lg:flex-row justify-center px-5'>
         <div>
           <h2 className='text-xl font-thin' data-aos="fade-up">We Offer Free Home Delivery Service for orders above ₹1,000/- </h2>
           <p className='mr-10 mt-5' data-aos="fade-up">After adding all the required items, click on checkout button and fill out the details for home delivery.</p>
