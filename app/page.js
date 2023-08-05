@@ -14,7 +14,7 @@ export default function Home() {
           <Link href="/order" >
             <button className='text-white px-4 py-3 rounded-xl font-semibold text-lg ' data-aos="fade-up" style={{ backgroundColor: "#FF4081", width: "190px" }}>Home Delivery</button></Link>
           <Link href="/contact" >
-            <button className='text-white px-4 py-3 rounded-xl font-semibold text-lg ' data-aos="fade-up" style={{ backgroundColor: "#FF4081", width: "170px" }}>Contact Us</button>
+            <button className='text-white px-4 py-3 rounded-xl font-semibold text-lg ' data-aos="fade-up" style={{ backgroundColor: "#FF4081", width: "190px" }}>Contact Us</button>
           </Link>
         </div>
       </div>
