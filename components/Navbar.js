@@ -31,7 +31,7 @@ export default function Navbar() {
                         </li>
                     </Link>
                 </ul>
-                <div onClick={e => setIsClicked(!isClicked)} className='hamburger absolute top-4 right-0 px-5 flex flex-col gap-1 items-center justify-center cursor-pointer md:hidden'>
+                <div onClick={e => setIsClicked(!isClicked)} className='hamburger absolute top-4 right-2 px-5 flex flex-col gap-1 items-center justify-center cursor-pointer md:hidden'>
                     <div className='line w-7 h-px pt-1 rounded bg-white'></div>
                     <div className='line w-7 h-px pt-1 rounded bg-white'></div>
                     <div className='line w-7 h-px pt-1 rounded bg-white'></div>
