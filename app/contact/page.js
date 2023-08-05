@@ -43,14 +43,14 @@ export default function Contact() {
 
       <div className={styles.mainContact} data-aos="fade-up" >
         <p className={`${styles.contactHead} gradient-text`}>CONTACT</p>
-        <p className={styles.contactSubHead}>If you have any queries, feel free to message here or connect with me directly via phone call.</p>
+        <p className={styles.contactSubHead}>If you have any queries, feel free to message here or connect with us directly via phone call.</p>
         <div className={styles.contactBox} data-aos="fade-up">
           <div className={styles.contactCol1}>
             <p className={styles.contactHead2}>Contact Details</p>
             <p className={styles.contactDesc}>Fill the adjacent form.Describe your query briefly. You will reveive a reply within 24 hours.</p>
             <div className={styles.contactDetails}>
-              <div className={styles.contact1}> <div className="bg-white p-2 rounded-full"> <FaPhoneVolume />  </div> <p className={styles.contact1P}>+91 9246178292</p></div>
-              <div className={styles.contact1}> <div className="bg-white p-2 rounded-full">     <FaEnvelope /> </div>   <p className={styles.contact1P}>shaikhah.advocate@gmail.com</p></div>
+              <div className={styles.contact1}> <div className="bg-white p-2 rounded-full"> <FaPhoneVolume />  </div> <p className={styles.contact1P}>+91 9391255084</p></div>
+              <div className={styles.contact1}> <div className="bg-white p-2 rounded-full">     <FaEnvelope /> </div>   <p className={styles.contact1P}>qidmatkiranastore@gmail.com</p></div>
               <div className={styles.contact1}> <div className="bg-white p-2 rounded-full"> <FaLocationDot /> </div>  <p className={styles.contact1P}>8FFR+6CF, St. 6, Omer Colony, Hafiz Baba Nagar South, Hafiz Baba Nagar, Hyderabad, Telangana 500058</p></div>
 
             </div>
