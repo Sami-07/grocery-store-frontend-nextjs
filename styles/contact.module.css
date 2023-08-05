@@ -197,7 +197,9 @@ margin: 0;
     .mainContact {
         margin: 0 20px;
     }
-
+    .contactCol2 {
+        height: 520px;
+    }
   
 }
 
