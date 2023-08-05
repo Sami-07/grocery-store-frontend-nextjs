@@ -3,7 +3,6 @@
     height: 100vh;
     margin: 0;
     overflow: hidden;
-
 } */
 .mainLogo {
     width: 60px;
@@ -13,19 +12,17 @@
 }
 
 .footerLogo {
-    width: 100px;
+    width: 45px;
 }
 
 .logoTitle {
     display: flex;
     align-items: center;
     /* flex-direction: column; */
-
 }
 
 .logoTitle h2 {
     font-size: 17px;
-
 }
 
 .logoTitle p {
@@ -51,7 +48,6 @@
 .allNavi {
     display: flex;
     align-items: center;
-
 }
 
 .allNavi a {
@@ -72,14 +68,12 @@
     color: white;
     font-size: 18px;
     /* text-decoration: none; */
-
 }
 
 @media (max-width: 1000px) {
     .logoTitle {
-        width: 95vw;
+        width: 75vw;
         justify-content: center;
-
     }
 
     .allNavi {
