@@ -64,7 +64,7 @@ export default function Order() {
             {allItems.length < 1 && <p>Your List is Empty.</p>}
             {allItems.map((item, i) => {
               return (
-                <div className='flex gap-3'>
+                <div key={item} className='flex gap-3'>
                   <p>{i + 1}.</p>
                   <p className='break-all'>{item}</p>
                   <button style={{ backgroundColor: "#FF4081" }} onClick={handleDelete} value={item} className='text-white px-2 py-1 h-8 rounded-xl font-md'>Remove</button>
