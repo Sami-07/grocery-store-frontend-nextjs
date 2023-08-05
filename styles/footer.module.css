@@ -1,0 +1,95 @@
+/* body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+
+} */
+.mainLogo {
+    width: 60px;
+    position: relative;
+    right: 0px;
+    rotate: 15deg;
+}
+
+.footerLogo {
+    width: 100px;
+}
+
+.logoTitle {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+
+}
+
+.logoTitle h2 {
+    font-size: 17px;
+
+}
+
+.logoTitle p {
+    font-size: 20px;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 20vh; */
+    background-color: #FF4081;
+    /* background-color: aqua; */
+    color: white;
+    padding-bottom: 20px;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10px 20px 10px;
+}
+
+.allNavi {
+    display: flex;
+    align-items: center;
+
+}
+
+.allNavi a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.copyRight {
+    font-size: 17px;
+}
+
+/* .footerContainer svg{
+    transform: rotate(180deg);
+} */
+.creator a {
+    color: white;
+    font-size: 18px;
+    /* text-decoration: none; */
+
+}
+
+@media (max-width: 1000px) {
+    .logoTitle {
+        width: 95vw;
+        justify-content: center;
+
+    }
+
+    .allNavi {
+       display: grid;
+       /* grid-template-columns: 1fr 1fr; */
+       margin: 20px auto;
+       text-align: center;
+        gap: 5px;
+    }
+    .allNavi a{
+        margin: 0;
+    }
+}
