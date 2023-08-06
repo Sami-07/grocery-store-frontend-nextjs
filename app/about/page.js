@@ -17,7 +17,7 @@ export default function About() {
       <h1 className='md:text-5xl text-4xl gradient-text text-center mt-10 mb-10' data-aos="fade-up">About Us</h1>
       <div className='flex flex-col justify-between items-center lg:gap-5 lg:w-3/4 m-auto  lg:flex-row-reverse'>
         <Image src="/images/about pic 1.jpg" className='px-5' width={400} height={400} data-aos="fade-up" />
-        <p className='lg:w-1/2 px-5 mt-10 text-lg font-thin' data-aos="fade-up">At  <strong style={{ color: "#FF4081" }} >Qidmat Kirana Store</strong>, we take pride in providing top-quality, handpicked daily essentials to our valued customers. With a wide array of products ranging from nutritious pulses, fragrant rice, and wholesome flour to aromatic spices, nourishing cooking oils, and refreshing dairy products like milk and curd, we have got everything you need to fill your kitchen with goodness.</p>
+        <p className='lg:w-1/2 px-5 mt-10 text-lg ' data-aos="fade-up">At  <strong style={{ color: "#FF4081" }} >Qidmat Kirana Store</strong>, we take pride in providing top-quality, handpicked daily essentials to our valued customers. With a wide array of products ranging from nutritious pulses, fragrant rice, and wholesome flour to aromatic spices, nourishing cooking oils, and refreshing dairy products like milk and curd, we have got everything you need to fill your kitchen with goodness.</p>
       </div>
       <div className='flex justify-between flex-col items-center lg:gap-5 lg:w-3/4 mt-10 m-auto lg:flex-row'>
         <Image src="/images/about pic 2.png" data-aos="fade-up" width={400} height={400} />
